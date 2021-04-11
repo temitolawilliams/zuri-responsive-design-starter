@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="nav-bar">
+    <div class="nav-bar" id="home">
         <div class="logo">Snapshot</div>
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
     </div>
 
     <!-- Hero section -->
@@ -31,7 +36,7 @@
     </div>
 
     <!-- sub-hero section -->
-    <div class="hero-background">
+    <div class="hero-background" id="about">
         <div class="background">
             <h4>Background</h4>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus sint ab rerum obcaecati totam neque quam corrupti dolores? Ipsam tempora consequatur quaerat. Voluptates accusamus molestiae nulla sapiente explicabo tempore possimus?</p>
@@ -60,7 +65,7 @@
     </div>
 
     <!-- Gallery section -->
-    <div class="gallery-section">
+    <div class="gallery-section" id="gallery">
         <div class="gallery-content">
             <h4>Gallery</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, sapiente. Nullae rem!</p>
@@ -86,7 +91,7 @@
     </div>
 
     <!-- Footer section -->
-    <div class="footer">
+    <div class="footer" id="contact">
         <div class="footer-content">
             <h4>Send a message</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, sapiente. Nuleos rem!</p>
@@ -103,5 +108,6 @@
         </div>
         <h6>Copyright &copy; 2021 Zuri Training.</h6>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
